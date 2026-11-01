@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Changa+One&family=Fira+Code:wght@300..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Sławek wizytówka - Kontakt</title>
+    <link rel="icon" type="image/png" href="imgs/ikona.png">
+</head>
+<body class="bg-change-2">
+    <div class="page-wrapper">
+    <div class="up">
+        <div class="flex-container">
+            <div class="flex-container">
+                <img src="imgs/ikona.png" alt="icon">
+                <h4 style="font-size: 20px; margin-top: 5px;">Slawek.dev</h4>
+            </div>
+            <div class="d-grid gap-2 d-md-block" style="text-align: center;">
+                <a href="index.html"><button class="btn-modern" type="button">
+                    Strona główna</button></a>
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <div class="hero">
+            <br>
+            <h2>Moje dane kontaktowe:</h2><br>
+            <h4><strong>Email: slawekworek80@gmail.com</strong><br>
+                </h4>
+            <h4><strong>Telefon: +48 123 456 789</strong><br>
+                </h4>
+                <br>
+            <h5>Polecam kontakt mailowy lub przez:</h5>   
+        
+            <div class="contact-card">
+                <h2 class="contact-title">Napisz do mnie</h2>
+                <p class="contact-subtitle">Masz pytanie lub propozycję współpracy? Wypełnij formularz!</p>
+
+                <form class="contact-form">
+                    <div class="form-group">
+                    <label for="name">Imię i nazwisko</label>
+
+                    <input type="text" id="name" placeholder="Jan Kowalski" required>
+                    </div>
+
+                    <div class="form-group">
+                    <label for="email">Adres e-mail</label>
+
+                    <input type="email" id="email" placeholder="jan@example.com" required>
+                    </div>
+
+                    <div class="form-group">
+                    <label for="subject">Temat</label>
+
+                    <input type="text" id="subject" placeholder="Współpraca / Zapytanie">
+                    </div>
+
+                    <div class="form-group">
+                    <label for="message">Wiadomość</label>
+
+                    <textarea id="message" rows="5" placeholder="Wpisz treść wiadomości..." required></textarea>
+                    </div>
+
+                    <button type="submit" class="submit-btn">
+                    Wyślij wiadomość
+                    <svg class="send-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/>
+                    </svg>
+                    </button>
+                </form>
+                </div>
+            </div><br>
+    </main>        
+    
+    <footer class="site-footer">
+    <div class="footer-container">
+    
+    <div class="footer-column footer-about">
+      <h3 class="footer-logo">Slawek<span>DEV</span></h3>
+      <p>Tworzę nowoczesne i funkcjonalne rozwiązania internetowe. Postaw na profesjonalizm.</p>
+    </div>
+
+    <!-- Kolumna 2: Szybkie linki -->
+    <div class="footer-column">
+      <h4>Nawigacja</h4>
+      <ul>
+        <li><a href="index.html">Strona Główna</a></li>
+        <li><a href="omnie.html">O Mnie</a></li>
+        <li><a href="kontakt.html">Kontakt</a></li>
+      </ul>
+    </div>
+
+    <!-- Kolumna 3: Legalne -->
+    <div class="footer-column">
+      <h4>Informacje</h4>
+      <ul>
+        <li><a href="regulamin.html">Regulamin</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+      </ul>
+    </div>
+
+    <!-- Kolumna 4: Kontakt i Sociale -->
+    <div class="footer-column footer-contact">
+        <h4>Kontakt</h4>
+        <p>📧 slawekworek80@gmail.com</p>
+        <p>📞 +48 123 456 789</p>
+        <div class="social-links">
+            <a href="#" class="social-icon"><img src="imgs/ikonkagit.jpg" alt="git" style="border-radius: 20px; width: 20px;"></a>
+            <a href="#" class="social-icon"><img src="imgs/ikonkafb.jpg" alt="fb" style="border-radius: 20px; width: 20px;"></a>
+            <a href="#" class="social-icon"><img src="imgs/ikonkaig.avif" alt="ig" style="border-radius: 20px; width: 20px;"></a>
+        </div>
+    </div>
+
+  </div>
+
+  <!-- Dolny pasek z prawami autorskimi -->
+  <div class="footer-bottom">
+    <p>&copy; 2026 Slawek.dev - Wszelkie prawa zastrzeżone.</p>
+  </div>
+</body>
+</html>
