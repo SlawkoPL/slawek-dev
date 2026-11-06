@@ -5,6 +5,21 @@
   color: white;
 }
 
+#loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff; /* Kolor tła, pod którym ukryta jest strona */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999; /* Gwarantuje, że loader będzie na samej górze */
+  font-family: sans-serif;
+  font-size: 24px;
+}
+
 .info {
   display: block;
 }
