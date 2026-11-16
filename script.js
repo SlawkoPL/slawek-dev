@@ -2,3 +2,10 @@ window.addEventListener('load', function () {
     const loader = document.getElementById('loader');
     loader.style.display = 'none'; // Ukrywa ekran ładowania
 });
+
+if (history.scrollRestoration) {
+    history.scrollRestoration = 'manual';
+}
+window.scrollTo(0, 0);
+
+
